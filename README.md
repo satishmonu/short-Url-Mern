@@ -26,5 +26,27 @@ This project is a URL shortener service that allows users to shorten long URLs i
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2.Install dependencies:
+
+cd your-repository
+npm install
+3. Set up MongoDB:
+
+Make sure MongoDB is installed and running on your system.
+Update the MongoDB connection string in config/db.js if necessary.
+
+4. Start the server:
+
+npm start
+
+5. Access the application at http://localhost:3000 in your web browser.
+
+Usage
+Visit the homepage of the URL shortener service.
+Enter a long URL into the input field and click "Shorten".
+Copy the generated short link and share it with others.
+Users who click on the short link will be redirected to the original long URL.
+Contributing
+Contributions are welcome! If you have any ideas, suggestions, or found a bug, feel free to open an issue or submit a pull request.
